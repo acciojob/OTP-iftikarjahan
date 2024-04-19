@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let inputs = document.querySelectorAll(".otp");
+let inputs = document.querySelectorAll(".code");
 inputs.forEach((input, idx) => {
     input.addEventListener("keyup", () => {
         if (input.value && idx < inputs.length - 1) {
